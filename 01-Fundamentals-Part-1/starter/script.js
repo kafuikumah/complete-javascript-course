@@ -29,6 +29,7 @@ console.log(myFirstJob);
 
 // LESSON 2 DATA TYPES
 
+/*
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -47,3 +48,21 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+// LET AND CONST
+
+// 1 - LET
+
+let age = 23;
+age = 24; //re-assigining or mutated value 24 to variable age
+
+// 2 - CONST
+// const birthYear = 1999;
+// birthYear = 2002;
+
+var job = "Programmer";
+job = "Teacher";
+
+lastName = "Schmeiterling";
+console.log(lastName);
