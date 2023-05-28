@@ -53,7 +53,7 @@ console.log(typeof null);
 // LET AND CONST
 
 // 1 - LET
-
+/*
 let age = 23;
 age = 24; //re-assigining or mutated value 24 to variable age
 
@@ -66,3 +66,38 @@ job = "Teacher";
 
 lastName = "Schmeiterling";
 console.log(lastName);
+*/
+
+// JAVASCRTIPT OPERATORS
+
+//Arithmetic Operators
+const now = 2037;
+const ageJoan = now - 1991;
+const ageSarah = now - 1997;
+console.log(ageJoan, ageSarah);
+
+console.log(ageJoan * 2, ageJoan / 10, 2 ** 3);
+
+// CONCATENATION
+const firstName = "LeBron";
+const lastName = "James";
+
+console.log(firstName + " " + lastName);
+
+// ASSIGNMENT OPERATOR
+let x = 10 + 5;
+x += 10; // x = x plus 10 = 25
+x *= 4; // x = x multiplied by 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100
+x--;
+// x /= 10;
+console.log(x);
+
+// COMPARISONS
+
+console.log(ageJoan > ageSarah); // <, >, <=. >=
+console.log(ageJoan >= ageSarah);
+console.log(ageJoan >= 81);
+
+const isFullAge = ageJoan >= 81;
