@@ -121,6 +121,8 @@ console.log(ageJoan, ageSarah, averageAge);
 
 // CODING CHALLENGE 1
 // DATA SET 1
+/*
+
 const massJohn = 92;
 const massMark = 78;
 
@@ -146,3 +148,37 @@ let bmiMark2 = massMark2 / heightMark2 ** 2;
 let bmiJohn2 = massJohn2 / heightJohn2 ** 2;
 
 console.log(bmiMark2, bmiJohn2);
+*/
+
+// STRING AND TEMPLATE LITERALS
+
+const firstName = "Kafui";
+const job = "Developer";
+const birthYear = 1994;
+const year = 2037;
+
+const kafui =
+  "I'm " +
+  firstName +
+  ", a " +
+  (year - birthYear) +
+  " year old" +
+  " " +
+  job +
+  "!";
+console.log(kafui);
+
+let kafuiNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(kafuiNew);
+
+console.log(`Just a regular string...`);
+
+console.log(
+  "String with \n\
+multiple \n\
+lines"
+);
+
+console.log(`String with
+multiple
+lines`);
