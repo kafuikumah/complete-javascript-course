@@ -69,7 +69,7 @@ console.log(lastName);
 */
 
 // JAVASCRTIPT OPERATORS
-
+/*
 //Arithmetic Operators
 const now = 2037;
 const ageJoan = now - 1991;
@@ -102,3 +102,18 @@ console.log(ageJoan >= 81);
 
 const isFullAge = ageJoan >= 81;
 console.log(now - 1991 > now - 2018);
+*/
+
+// OPERATOR PRECEDENCE
+
+const now = 2037;
+const ageJoan = now - 1991;
+const ageSarah = now - 2018;
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 25 - 10 - 5 = 10
+console.log(x, y);
+
+const averageAge = (ageJoan + ageSarah) / 2;
+console.log(ageJoan, ageSarah, averageAge);
