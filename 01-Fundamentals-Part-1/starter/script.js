@@ -1,6 +1,25 @@
-// Remember we're going to use strict mode for all our scripts!
-"use strict";
+let js = "amazing";
+console.log(40 + 8 + 23 - 10);
+console.log("Jonas");
+console.log(23);
 
-const x = 23;
+let firstName = "Mathilda";
 
-if (x === 23) console.log("Jordan is my GOAT");
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+let jonas_matilda = "JM";
+let $function = 27;
+
+let person = "Jonas";
+let PI = 3.1415;
+
+//Variable Name Conventions
+let myFirstJob = "Coder";
+let myCurrentJob = "Teacher";
+
+let job1 = "programmer";
+let job2 = "teacher";
+
+console.log(myFirstJob);
