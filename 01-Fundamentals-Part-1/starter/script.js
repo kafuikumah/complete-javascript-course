@@ -101,3 +101,4 @@ console.log(ageJoan >= ageSarah);
 console.log(ageJoan >= 81);
 
 const isFullAge = ageJoan >= 81;
+console.log(now - 1991 > now - 2018);
