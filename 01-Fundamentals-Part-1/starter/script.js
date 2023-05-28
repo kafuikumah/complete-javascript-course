@@ -105,7 +105,7 @@ console.log(now - 1991 > now - 2018);
 */
 
 // OPERATOR PRECEDENCE
-
+/*
 const now = 2037;
 const ageJoan = now - 1991;
 const ageSarah = now - 2018;
@@ -117,3 +117,32 @@ console.log(x, y);
 
 const averageAge = (ageJoan + ageSarah) / 2;
 console.log(ageJoan, ageSarah, averageAge);
+*/
+
+// CODING CHALLENGE 1
+// DATA SET 1
+const massJohn = 92;
+const massMark = 78;
+
+const heightMark = 1.69;
+const heightJohn = 1.95;
+
+const bmiMark = massMark / heightMark ** 2;
+const bmiJohn = massJohn / (heightJohn * heightJohn);
+
+console.log("Mark's BMI is " + " " + bmiMark, "John's BMI is " + " " + bmiJohn);
+
+let markHigherBMI = bmiMark > bmiJohn;
+console.log("Is Mark's BMI higher?" + " " + "Ans:" + markHigherBMI);
+
+// DATA SET 2
+const massMark2 = 95;
+const heightMark2 = 1.88;
+
+const massJohn2 = 85;
+const heightJohn2 = 1.76;
+
+let bmiMark2 = massMark2 / heightMark2 ** 2;
+let bmiJohn2 = massJohn2 / heightJohn2 ** 2;
+
+console.log(bmiMark2, bmiJohn2);
